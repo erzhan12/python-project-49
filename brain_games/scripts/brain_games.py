@@ -20,7 +20,7 @@ def start_game(generate_round_data, question_text, number_of_rounds=3):
             print(f"Let's try again, {name}")
             return
         print("Correct")
-    print(f"Congratulations, {name}")
+    print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":

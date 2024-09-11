@@ -17,7 +17,7 @@ def start_game(generate_round_data, question_text, number_of_rounds=3):
         if user_answer != correct_answer:
             print(f"'{user_answer}' is wrong answer ;(."
                   f" Correct answer was '{correct_answer}'")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             return
         print("Correct")
     print(f"Congratulations, {name}!")

@@ -1,12 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "The project is a set of math problems"
 authors = ["Yerzhan <erzhan.sarsenov@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/erzhan12/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.12"

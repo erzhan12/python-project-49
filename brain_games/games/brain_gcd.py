@@ -12,13 +12,13 @@ def brain_gcd():
     start_game(generate_question, question_text)
 
 
-def calc_gcd(a, b):
-    a, b = abs(a), abs(b)
-    if a == 0 and b == 0:
+def calc_gcd(num1, num2):
+    num1, num2 = abs(num1), abs(num2)
+    if num1 == 0 and num2 == 0:
         return None  # GCD undefined
-    while b:
-        a, b = b, a % b
-    return a
+    while num2:
+        num1, num2 = num2, num1 % num2
+    return num1
 
 
 def generate_question():
